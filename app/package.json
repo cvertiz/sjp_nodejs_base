@@ -1,0 +1,18 @@
+{
+  "name": "sjp_app_node_001",
+  "version": "1.0.0",
+  "description": "SJP template app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.19.21",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "uuid": "^7.0.3"
+  }
+}

@@ -1,0 +1,5 @@
+applications:
+- name: sjp_app_node_001
+  random-route: true
+  path: ./
+  memory: 1024M
