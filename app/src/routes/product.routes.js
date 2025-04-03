@@ -3,8 +3,9 @@ const router = express.Router();
 const ProductController = require("../controllers/product.controllers");
 
 // Llamar a la función "saludar"
-//router.get('/:nombre', ProductController.saludar);
-//router.get('/', ProductController.saludar);
+router.get('/:nombre', ProductController.saludar);
+// router.get('/', ProductController.saludar);
+router.get("/xsjs/update.xsjs", ProductController.updateRemesa);
 router.get("/clients/find", ProductController.findAllClients);
 
 router.get("/products/find", ProductController.findAll);

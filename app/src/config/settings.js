@@ -1,9 +1,9 @@
 exports.connectionParams = {
-    serverNode: "a0f85828-ec15-4831-a996-728eb3305cb6.hana.trial-us10.hanacloud.ondemand.com:443",
+    serverNode: "c968f752-ec1a-442d-8ff6-781a9c89c19a.hana.trial-us10.hanacloud.ondemand.com:443",
     encrypt: true,
     sslValidateCertificate: "false",
-    schema: "TEST_USER",
-    uid: "TEST_USER",
+    schema: "DBADMIN",
+    uid: "DBADMIN",
     pwd: "Growbiz_3",
-    databaseName: "H00"
+    // databaseName: "H00"
 };
